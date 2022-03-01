@@ -1,10 +1,10 @@
 package Restaurant_Example;
 /**
- * The main class which utilizes the kitchen class and food objects to
+ * The main class which utilizes the kitchen class and food super class to
  * order different types of food.  This then returns the type of food
  * to the console with a message detailing the order.
- * This stage of the design pattern is calling the builder class to
- * build the orders, which in this case would be kitchen
+ * This stage of the design pattern is calling the method which returns
+ * from one of many classes, of which all share one super class
  */
 public class Restaurant {
    public static void main(String[] args) {      
