@@ -2,8 +2,8 @@ package Restaurant_Example;
 /**
  * Takes an input foodName and returns a Food of either 
  * Pizza, Burger, Fries, or Salad depending on the input
- * This stage in the design pattern is calling objects
- * that are implementing the Food interface
+ * This stage in the design pattern is returning one of many classes that share the
+ * super class of Food
  * @param foodName A String containing the name of the food, this is then
  *                 used to create a new food of that type 
  * @returns a class of the interface Food
